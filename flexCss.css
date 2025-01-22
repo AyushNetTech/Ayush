@@ -1,0 +1,28 @@
+.main{
+    height: 600px;
+    width: 700px;
+    background-color: grey;
+    display: flex;
+    
+}
+.child1{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.child2{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.child3{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+
+/* Need to ask sir, why display block not working while div is inline element
