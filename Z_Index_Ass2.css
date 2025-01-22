@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: black;
+    height: 600px;
+    width: 800px;
+    margin: auto;
+}
+.M{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    z-index: 10;
+}
+.L1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 250px;
+    z-index: 9;
+}
+.L2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 200px;
+    z-index: 8;
+}
+.L3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -100px;
+    left: 150px;
+    z-index: 7;
+}
+.L4{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -150px;
+    left: 100px;
+    z-index: 6;
+}
+.R1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -400px;
+    LEFT: 450px;
+    z-index: 11;
+}
+.R2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -450px;
+    left: 500px;
+    z-index: 12;
+}
+.R3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -500px;
+    left: 550px;
+    z-index: 13;
+}
+.R4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -550px;
+    left: 600px;
+    z-index: 14;
+}
