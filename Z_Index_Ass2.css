@@ -27,6 +27,9 @@
     left: 250px;
     z-index: 9;
 }
+img{
+    object-fit: fill;
+}
 .L2{
     background-color: blue;
     height: 100px;
