@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: aqua;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    padding-top: 90px;
+}
+.head{
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+.nav{
+    background-color: rgb(66, 97, 57);
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+.nav ul li{
+    color: white;
+    list-style: none;
+    display: inline;
+    margin: 30px;
+}
+.cont{
+    background-color: grey;
+    height: 570px;
+    width: 100%;
+}
+.left{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.left h1{
+    text-align: center;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+.right{
+    background-color: white;
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+.right #P1{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.right #P2{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.right #P3{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.right #P4{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.right #P5{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.foot{
+    background-color: grey;
+    height: 40px;
+    width: 100%;
+}
+.foot p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 20px;
+}
