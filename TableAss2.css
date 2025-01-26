@@ -9,6 +9,7 @@ table{
     height: 400px;
     margin-top: 10px;
     font-size: large;
+    border: 3px solid black;
 }
 table #R1{
     background-color: rgb(189, 189, 243);
