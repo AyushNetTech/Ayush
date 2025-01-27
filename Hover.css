@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 500px;
+    width: 700px;
+}
+h3{
+    color: white;
+    line-height: 100px;
+}
+.a{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.b{
+    background-color: yellow;
+    height: 100px;
+    width: 300px;
+    margin-left: 500px;
+    transition: 1s;
+}
+.a:hover .b{
+    background-color: grey;
+    margin-left: 100px;
+    transition: 1s;
+}
