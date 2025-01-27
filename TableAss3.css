@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    height: 500px;
+    width: 750px;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#R1{
+    font-weight: bold;
+    text-align: center;
+}
+#C1{
+    font-weight: bold;
+    text-align: center;
+    width: 130px;
+}
+#C2{
+    
+    text-align: center;
+    width: 100px;
+}
+#C3{
+    
+    text-align: center;
+    width: 110px;
+}
+#C4{
+    
+    text-align: center;
+    width: 110px;
+}
+#C5{
+    
+    text-align: center;
+    width: 110px;
+}
+#C6{
+    
+    text-align: center;
+    width: 190px;
+}
+td{
+    text-align: center;
+}
