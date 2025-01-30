@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(58, 58, 58);
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.b1{
+    position: absolute;
+    background-color: aqua;
+    height: 300px;
+    width: 250px;
+    top: 150px;
+    left: 0px;
+}
+.b2{
+    position: absolute;
+    background-color: green;
+    height: 300px;
+    width: 250px;
+    top: 150px;
+    left: 250px;
+}
+.b3{
+    position: absolute;
+    background-color: blue;
+    height: 300px;
+    width: 250px;
+    top: 150px;
+    left: 500px;
+}
+.b4{
+    position: absolute;
+    background-color: hotpink;
+    height: 300px;
+    width: 250px;
+    top: 150px;
+    left: 750px;
+
+}
