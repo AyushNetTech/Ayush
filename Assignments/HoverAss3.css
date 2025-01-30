@@ -18,7 +18,10 @@ h1{
 }
 .b1{
     position: absolute;
+    /* background-image: url(./Images/Spider_Man1.jpeg); */
     background-color: aqua;
+    background-size:contain;
+    background-repeat: no-repeat;
     height: 300px;
     width: 250px;
     top: 150px;
