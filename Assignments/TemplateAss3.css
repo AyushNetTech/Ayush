@@ -5,7 +5,7 @@
 }
 .outer{
     margin: auto;
-    background-color: grey;
+    background-color: rgb(167, 166, 166);
     height: 1000px;
     width: 1200px;
 }
@@ -19,6 +19,7 @@
     background-color: rgb(242, 236, 236);
     height: 60px;
     width: 100%;
+    border-bottom: 2px solid grey;
 }
 .nav1 ul li{
     line-height: 60px;
@@ -42,19 +43,20 @@
     padding-left: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.nav2{
+    background-color: rgb(29, 65, 185);
+    height: 65px;
+    width: 100%;
+}
 .nav2 ul li{
+    color: white;
     line-height: 60px;
     display: inline;
     padding-left: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
-.nav2{
-    background-color: rgb(183, 183, 183);
-    height: 65px;
-    width: 100%;
-}
-.cont{
+.cont{ 
     background-color: blueviolet;
     height: 750px;
     width: 100%;
@@ -72,24 +74,65 @@
     float: left;
 }
 .left .up{
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     height: 50%;
     width: 100%;
+    position: relative;
+}
+.left .up h2{
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    color: white;
+    background-color: rgb(77, 76, 76);
+    line-height: 45px;
+    text-align: center;
+    top: 35px;
+    
 }
 .left .down{
-    background-color: rgb(153, 205, 100);
+    background-color: rgb(255, 255, 255);
     height: 50%;
     width: 100%;
+    position: relative;
+}
+.left .down h2{
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    color: white;
+    background-color: rgb(77, 76, 76);
+    line-height: 45px;
+    text-align: center;
+    top: 35px;
+    
 }
 .right .up{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     height: 12%;
     width: 100%;
+}
+.right .up h1{
+    line-height: 90px;
+    padding-left: 25px;
 }
 .right .center{
     background-color: rgb(31, 40, 19);
     height: 44%;
     width: 100%;
+}
+.center .left{
+    height: 100%;
+    width: 65%;
+    background-color: aqua;
+}
+.center .right{
+    background-image: url(./Images/meeting.jpg);
+    background-size: 100% 100% ;
+    background-position: center center;
+    height: 100%;
+    width: 35%;
+    background-color: rgb(94, 255, 0);
 }
 .right .down{
     background-color: rgb(88, 149, 185);
