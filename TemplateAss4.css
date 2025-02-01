@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 800px;
+    width: 1200px;
+    background-color: rgb(223, 222, 222);
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+}
+.main{
+    position: absolute;
+    position: relative;
+    background-color: white;
+    height: 780px;
+    width: 1050px;
+    top: 20px;
+    left: 75px;
+}
+.innermain{
+    position: absolute;
+    background-color: aqua;
+    height: 770px;
+    width: 1030px;
+    top: 10px;
+    left: 10px;
+}
+.up{
+    height: 345px;
+    width: 100%;
+    background-color: black;
+    background-image: url(./Assignments/Images/BlackForest.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+.up #N{
+    display: inline;
+    color: white;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 345px;
+    padding-left: 100px;
+    text-shadow: 7px 7px 5px rgb(231, 0, 0);
+    font-weight: bolder;
+}
+.up #O{
+    display: inline;
+    color: orange;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 345px;
+    padding-left: 40px;
+    text-shadow: 5px 5px 5px white;
+    font-weight: bolder;
+}
+.nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.nav ul li{
+    padding: 15px 15px;
+    color: white;
+    display: inline;
+    padding-left: 20px;
+    line-height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 2px solid white;
+    transition: 0.7s;
+}
+ul li:hover{
+    background-color: rgb(252, 109, 66);
+    transition: 0.7s;
+}
+.down{
+    background-color: white;
+    height: 365px;
+    width: 100%;
+}
