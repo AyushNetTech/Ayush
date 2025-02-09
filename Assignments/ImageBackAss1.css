@@ -57,6 +57,9 @@
     background-color: rgb(226, 123, 85);
     align-items: center;
 }
+.main1 .nav h3:hover{
+    box-shadow: 0px 0px 10px black;
+}
 .main1 .left{
     height: 720px;
     width: 55%;
@@ -77,6 +80,9 @@
     padding: 0px 125px;
     padding-top: 150px;
 }
+.main1 .left .up p:hover{
+    color: rgb(226, 123, 85);;
+}
 .main1 .left .down p{
     font-size: 25px;
     color: white;
@@ -85,6 +91,9 @@
     padding: 0px 125px;
     padding-top: 50px;
 }
+.main1 .left .down p:hover{
+    color: rgb(226, 123, 85);;
+}
 .main1 .left .down #p1{
     font-size: 28px;
     color: white;
@@ -92,6 +101,9 @@
     text-align: center;
     padding: 0px 125px;
     padding-top: 50px;
+}
+.main1 .left .down #p1:hover{
+    color: rgb(226, 123, 85);;
 }
 .main1 .right{
     height: 720px;
@@ -110,6 +122,9 @@
     border: 3px solid white;
     border-radius: 20px;
 }
+.main1 .right .imgR:hover{
+    box-shadow: 0px 0px 30px white;
+}
 .main1 .right .imgL{
     background-image: url(./Images/Dolomites2.jpg);
     background-size: cover;
@@ -121,6 +136,9 @@
     right: 56px;
     border: 3px solid white;
     border-radius: 20px;
+}
+.main1 .right .imgL:hover{
+    box-shadow: 0px 0px 30px white;
 }
 .main2{
     position: absolute;
