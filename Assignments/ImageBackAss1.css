@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    height: 4000px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(./Images/Mountain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main1{
+    position: absolute;
+    height: 900px;
+    width: 1400px;
+    background-color: rgb(22, 22, 22);
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.main1 .nav{
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    top: 0px;
+    z-index: 1;
+}
+.main1 .nav ul li{
+    color: rgb(228, 102, 56);
+    float: left;
+    padding-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    list-style: none;
+    font-weight: bold;
+    line-height: 80px;
+}
+.main1 .nav h1{
+    line-height: 80px;
+    display: inline;
+    padding-left: 215px;
+    font-size: 37px;
+}
+.main1 .nav h3{
+    color: white;
+    height: 30px;
+    width: 110px;
+    margin-right: 50px;
+    margin-top: 25px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(226, 123, 85);
+    align-items: center;
+}
+.main1 .left{
+    height: 720px;
+    width: 55%;
+    background-color:rgb(22, 22, 22);
+    float: left;
+}
+.main1 .left .up{
+    background-color:rgb(22, 22, 22);
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+.main1 .left .up p{
+    font-size: 35px;
+    color: white;
+    font-family: "Merienda", serif;
+    text-align: center;
+    padding: 0px 125px;
+    padding-top: 150px;
+}
+.main1 .left .down p{
+    font-size: 25px;
+    color: white;
+    font-family: "Jura", serif;
+    text-align: center;
+    padding: 0px 125px;
+    padding-top: 50px;
+}
+.main1 .left .down #p1{
+    font-size: 28px;
+    color: white;
+    font-family: "Fjalla One", serif;
+    text-align: center;
+    padding: 0px 125px;
+    padding-top: 50px;
+}
+.main1 .right{
+    height: 720px;
+    width: 45%;
+    background-color:rgb(22, 22, 22);
+    float: left;
+}
+.main1 .right .imgR{
+    background-image: url(./Images/Dolomites1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 370px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.main1 .right .imgL{
+    background-image: url(./Images/Dolomites2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+    width: 270px;
+    position: absolute;
+    top: 370px;
+    right: 56px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.main2{
+    position: absolute;
+    height: 1200px;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    top: 920px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.main2 .up{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.main2 img{
+    position: absolute;
+}
+.main2 .up p{
+    font-family: "Fjalla One", serif;
+    height: 500px;
+    width: 300px;
+    top: 100px;
+    right: 60px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+}
+.main2 .up #p1{
+    font-family: "Fjalla One", serif;
+    height: 500px;
+    width: 300px;
+    top: 340px;
+    right: 60px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+}
+.main2 .down{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+.main2 .down img{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+.main2 .down p{
+    font-family: "Jura", serif;
+    height: 500px;
+    width: 450px;
+    top: 150px;
+    left: 40px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
