@@ -39,6 +39,10 @@
     font-weight: bold;
     line-height: 80px;
 }
+.main1 .nav ul li:hover{
+    color: black;
+    text-decoration: underline;
+}
 .main1 .nav h1{
     line-height: 80px;
     display: inline;
