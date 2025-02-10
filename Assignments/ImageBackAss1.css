@@ -5,7 +5,7 @@
 }
 .main{
     position: relative;
-    height: 4000px;
+    height: 3500px;
     width: 100%;
     /* background-color: aqua; */
     background-image: url(./Images/Mountain.jpg);
@@ -207,7 +207,7 @@
 }
 .main3{
     position: absolute;
-    height: 1400px;
+    height: 1380px;
     width: 1400px;
     background-color: rgb(255, 255, 255);
     top: 2120px;
@@ -232,6 +232,10 @@
     padding-inline: 100px;
     font-size: 52px;
     font-family: "Kranky", serif;
+}
+.main3 .nav ul li:hover{
+    color: rgb(226, 123, 85);
+    font-size: 55px;
 }
 .main3 .nav #list{
     border-right: 2px solid white;
@@ -276,11 +280,99 @@
     height: 380px;
     width: 250px;
     background-color: rgb(206, 205, 205);
+    transition: 1s;
+}
+.main3 .up .c .card1:hover{
+    height: 420px;
+    width: 300px;
+}
+.main3 .up .c .card2:hover{
+    height: 420px;
+    width: 300px;
+}
+.main3 .up .c .card3:hover{
+    height: 420px;
+    width: 300px;
+}
+.main3 .up .c .card4:hover{
+    height: 420px;
+    width: 300px;
+}
+.main3 .up .c .card5:hover{
+    height: 420px;
+    width: 300px;
+}
+.main3 .up .c .profile{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main3 .up .c .i{
+    height: 170px;
+    width: 170px;
+    background-color: black;
+    border-radius: 50%;
+}
+.main3 .up .c .img1{
+    background-image: url(./Images/d1.jpg);
+    background-size: 95% 98%;
+    background-position: top center;
+}
+.main3 .up .c .img2{
+    background-image: url(./Images/d2.jpg);
+    background-size: 95% 98%;
+    background-position: top center;
+}
+.main3 .up .c .img3{
+    background-image: url(./Images/d3.jpg);
+    background-size: 95% 98%;
+    background-position: top center;
+}
+.main3 .up .c .img4{
+    background-image: url(./Images/d4.jpg);
+    background-size: 95% 98%;
+    background-position: top center;
+}
+.main3 .up .c .img5{
+    background-image: url(./Images/d5.jpg);
+    background-size: 95% 98%;
+    background-position: top center;
+}
+.main3 .up .c .cont{
+    height: 45%;
+    width: 100%;
+    background-color:rgb(230, 230, 230);
+}
+.main3 .up .cont p{
+    font-size: 25px;
+    font-family: "Merienda", serif;
+    text-align: center;
+    padding: 0px 24px;
+    font-weight: bolder;
 }
 .main3 .down{
     position: absolute;
     top: 850px;
-    height: 550px;
+    height: 530px;
     width: 100%;
-    background-color: rgb(39, 37, 145);
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.main3 .down .cont{
+    height: 500px;
+    width: 90%;
+    background-color: rgb(37, 134, 61);
+}
+.main3 .down .cont p{
+    font-size: 40px;
+    font-family: "Jura", serif;
+    font-weight: bold;
+    color: white;
+    text-align:start;
+    padding: 50px 180px;
 }
