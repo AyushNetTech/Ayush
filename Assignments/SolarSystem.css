@@ -14,7 +14,6 @@
     background-image: url(./Images/sun.jpeg);
     background-position: center center;
     background-size: 150% 150%;
-    /* animation: orbit 10s linear infinite; */
     border-radius: 50%;
     top: 41%;
     left: 45%;
@@ -34,25 +33,35 @@
     top: 43%;
     left: 48%;
     transform: -50%;
-    /* animation: orbit 10s linear infinite; */
     transform: rotate(0deg) translatex(280px) rotate(0deg);
     transition: 20s linear;
 }
 .Moon{
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-color: red;
     background-image: url(./Images/Moon.jpg);
-    background-size: 120% 120%;
+    background-size: 110% 110%;
     background-position: center;
     border-radius: 50%;
-    top: 43%;
-    left: 48%;
+    top: 40%;
+    left: 45%;
     transform: -50%;
-    /* transform: rotate(0deg) translatex(280px) rotate(0deg);
-    transition: 20s linear; */
+    animation: Moonorbit 10s linear infinite;
+    /* transform: rotate(0deg) translatex(100px) rotate(0deg); */
+    transition: 5s linear;
 }
 .main:hover .Earth{
     transform: rotate(360deg) translatex(280px) rotate(-360deg);
 }
+
+@keyframes Moonorbit{
+    from{
+        transform: rotate(0deg) translatex(100px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translatex(100px) rotate(-360deg);
+    }
+}
+
