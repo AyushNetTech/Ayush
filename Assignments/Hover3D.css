@@ -18,9 +18,11 @@
     height: 550px;
     width: 550px;
     background-color: rgb(255, 72, 0);
-    background-image: url(./Images/Dolomites3.jpg);
-    background-size: 120% 100%;
-    transition: 3s ease-out;
+    background-image: url(./Images/Mountain.jpg);
+    background-size: 140% 120%;
+    background-position:center;
+    transition: 2s ease-out;
+    border-radius: 20px;
 }
 .Img2{
     position: absolute;
@@ -31,13 +33,27 @@
     background-color: rgb(0, 0, 0);
     opacity: 0.6;
     transform: perspective(900px) rotateY(90deg);
-    transition: 3s ease-out;
+    transition: 2s ease-out;
+    border-radius: 20px;
+}
+p{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 0px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 115, 0);
 }
 .main:hover .Img2{
-    transform: perspective(900px) rotateY(180deg);
-    /* transform: perspective(200px) rotateY(180deg); */
+    transform: perspective(900px) rotateY(0deg);
 }
 .main:hover .Img1{
-    transform: perspective(900px) rotateY(90deg)
-    /* transform-origin: center; */
+    transform: perspective(900px) rotateY(-90deg);
 }
