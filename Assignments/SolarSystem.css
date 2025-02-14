@@ -48,9 +48,8 @@
     top: 40%;
     left: 45%;
     transform: -50%;
-    animation: Moonorbit 10s linear infinite;
+    animation: Moonorbit 5s linear infinite;
     /* transform: rotate(0deg) translatex(100px) rotate(0deg); */
-    transition: 5s linear;
 }
 .main:hover .Earth{
     transform: rotate(360deg) translatex(280px) rotate(-360deg);
