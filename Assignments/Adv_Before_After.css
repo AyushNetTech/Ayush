@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+.main{
+    height: 900px;
+    width: 1400px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+}
+#b1{
+    display: block;
+    height: 170px;
+    width: 300px;
+    border-radius: 20px;
+    /* margin-left: 200px;
+    margin-top: 200px; */
+    font-size: 40px;
+    position: relative;
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-color: rgb(87, 86, 86);
+    color: white;
+}
+#b1::before{
+    content: "";
+    height: 10px;
+    width: 0;
+    position: absolute;
+    background-color: red;
+    top: -20px;
+    left: 0px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#b1:hover::before{
+    width: 100%;
+}
+#b1::after{
+    content: "";
+    height: 10px;
+    width: 0;
+    position: absolute;
+    background-color: red;
+    top: 172px;
+    right: 0px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#b1:hover::after{
+    width: 100%;
+}
+
+#b2{
+    display: block;
+    height: 170px;
+    width: 300px;
+    border-radius: 20px;
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    font-size: 40px;
+    position: relative;
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-color: rgb(87, 86, 86);
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+#b2::before{
+    position: absolute;
+    content: "";
+    height: 170px;
+    width: 0;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0));
+    top: 0px;
+    left: 0px;
+    border-radius: 0 50% 50% 0;
+    transition: 1s;
+    z-index: -1;
+}
+#b2:hover::before{
+    width: 180%;
+}
+#b3{
+    display: block;
+    height: 170px;
+    width: 300px;
+    border-radius: 20px;
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    font-size: 40px;
+    position: relative;
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-color: rgb(87, 86, 86);
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+#b3::before{
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 0;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0));
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+    z-index: -1;
+}
+#b3:hover::before{
+    width: 50%;
+}
+#b3::after{
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 0;
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 255, 0));
+    top: 0px;
+    right: 0px;
+    transition: 1s;
+    z-index: -1;
+}
+#b3:hover::after{
+    width: 50%;
+}
+
+#b4{
+    display: block;
+    height: 170px;
+    width: 300px;
+    border-radius: 20px;
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    font-size: 40px;
+    position: relative;
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-color: rgb(87, 86, 86);
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+#b4::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url(./Images/Dolomites3.jpg);
+    background-size: cover;
+    background-position: center left;
+    top: 180px;
+    left: 0px;
+    transition: 0.5s;
+    z-index: -1;
+}
+#b4:hover::before{
+    top: 0px;
+}
