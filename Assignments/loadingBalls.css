@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 49, 49);
+}
+.main{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: grey;
+    margin: 100px auto;
+}
+.b1{
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 50px;
+    animation: Load1 1s linear infinite;
+}
+.b2{
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 160px;
+    animation: Load2 1s linear 0.1s infinite;
+}
+.b3{
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 270px;
+    animation: Load3 1s linear 0.4s infinite;
+}
+.b4{
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 380px;
+    animation: Load4 1s linear 0.6s infinite;
+}
+.b5{
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 490px;
+    animation: Load5 1s linear 0.8s infinite;
+}
+
+@keyframes Load1{
+    0%{
+        top: 100px;
+    }
+    100%{
+        top: 300px;
+    }
+}
+@keyframes Load2{
+    0%{
+        top: 100px;
+    }
+    100%{
+        top: 300px;
+    }
+    
+}
+/* @keyframes Load3{
+    0%{
+        top: 100px;
+    }
+    100%{
+        top: 300px;
+    }
+}
+@keyframes Load4{
+    0%{
+        top: 100px;
+    }
+    100%{
+        top: 300px;
+    }
+}
+@keyframes Load5{
+    0%{
+        top: 100px;
+    }
+    100%{
+        top: 300px;
+    }
+} */
+
