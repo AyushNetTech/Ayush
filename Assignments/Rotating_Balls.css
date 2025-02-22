@@ -27,35 +27,11 @@ body{
     border-radius: 50%;
     top: 200px;
     right: 100px;
-    animation: b2 10s linear 0s infinite reverse;
+    animation: b2 1s linear 0s infinite reverse;
 }
 
-@keyframes main{
-    0%{
-        transform: perspective(1000px) rotate3d(1,1,1,0deg);
-    }
-    100%{
-        transform: perspective(1000px) rotate3d(0,1,0,360deg);
-    }
-}
-/* @keyframes b1{
-    0%{
-        transform: perspective(1000px) rotate3d(1,1,1,0deg);
-    }
-    100%{
-        transform: perspective(1000px) rotate3d(0,1,0,-90deg);
-    }
-}
+
 @keyframes b2{
-    0%{
-        transform: perspective(1000px) rotate3d(1,1,1,0deg);
-    }
-    100%{
-        transform: perspective(1000px) rotate3d(0,1,0,-90deg);
-    }
-} */
-
-/* @keyframes b2{
     0%{
         transform: translateX(0px);
     }
@@ -79,4 +55,4 @@ body{
         height: 100px;
         width: 100px;
     }
-} */
+}

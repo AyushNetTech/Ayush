@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* transform:rotateX(70deg); */
 }
 .sun{
     position: relative;
@@ -23,6 +24,7 @@
     border-radius: 50%;
     transition: 15s linear;
     margin-top: 400px;
+    transform: rotateX(90deg);
 }
 .sun::before{
     position: absolute;
@@ -36,6 +38,7 @@
     border-radius: 50%;
     border: 10px dotted red;
     /* transform: translateX(-160px) translateY(-160px); */
+    /* transition: 1s; */
 }
 .earthOrbit{
     display: block;
