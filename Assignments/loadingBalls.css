@@ -31,7 +31,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 160px;
-    animation: Load2 1s linear 0.1s infinite;
+    animation: Load2 1s linear infinite;
 }
 .b3{
     position: absolute;
@@ -41,7 +41,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 270px;
-    animation: Load3 1s linear 0.4s infinite;
+    animation: Load3 1s linear infinite;
 }
 .b4{
     position: absolute;
@@ -51,7 +51,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 380px;
-    animation: Load4 1s linear 0.6s infinite;
+    animation: Load4 1s linear infinite;
 }
 .b5{
     position: absolute;
@@ -61,12 +61,24 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 490px;
-    animation: Load5 1s linear 0.8s infinite;
+    animation: Load5 1s linear infinite;
 }
 
 @keyframes Load1{
     0%{
         top: 100px;
+    }
+    20%{
+        top: 100px;
+    }
+    40%{
+        top: 300px;
+    }
+    60%{
+        top: 300px;
+    }
+    80%{
+        top: 300px;
     }
     100%{
         top: 300px;
@@ -76,14 +88,37 @@ body{
     0%{
         top: 100px;
     }
+    20%{
+        top: 100px;
+    }
+    40%{
+        top: 100px;
+    }
+    60%{
+        top: 300px;
+    }
+    80%{
+        top: 300px;
+    }
     100%{
         top: 300px;
     }
-    
 }
-/* @keyframes Load3{
+@keyframes Load3{
     0%{
         top: 100px;
+    }
+    20%{
+        top: 100px;
+    }
+    40%{
+        top: 100px;
+    }
+    60%{
+        top: 100px;
+    }
+    80%{
+        top: 300px;
     }
     100%{
         top: 300px;
@@ -93,16 +128,19 @@ body{
     0%{
         top: 100px;
     }
-    100%{
-        top: 300px;
+    20%{
+        top: 100px;
     }
-}
-@keyframes Load5{
-    0%{
+    40%{
+        top: 100px;
+    }
+    60%{
+        top: 100px;
+    }
+    80%{
         top: 100px;
     }
     100%{
         top: 300px;
     }
-} */
-
+}
