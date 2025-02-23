@@ -21,7 +21,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 50px;
-    animation: Load1 1s linear infinite;
+    animation: Load1 1s ease infinite;
 }
 .b2{
     position: absolute;
@@ -31,7 +31,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 160px;
-    animation: Load2 1s linear infinite;
+    animation: Load2 1s ease infinite;
 }
 .b3{
     position: absolute;
@@ -41,7 +41,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 270px;
-    animation: Load3 1s linear infinite;
+    animation: Load3 1s ease infinite;
 }
 .b4{
     position: absolute;
@@ -51,17 +51,7 @@ body{
     border-radius: 50%;
     top: 100px;
     left: 380px;
-    animation: Load4 1s linear infinite;
-}
-.b5{
-    position: absolute;
-    background-color: orange;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    top: 100px;
-    left: 490px;
-    animation: Load5 1s linear infinite;
+    animation: Load4 1s ease infinite;
 }
 
 @keyframes Load1{
