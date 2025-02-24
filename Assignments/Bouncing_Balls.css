@@ -41,7 +41,7 @@ body{
     border: 2px solid black;
     bottom: 110px;
     left: 300px;
-    animation: Bounce2 1s ease-in infinite;
+    animation: Bounce2 1.2s ease-in infinite;
 }
 .b3{
     position: absolute;
@@ -52,7 +52,7 @@ body{
     border: 2px solid black;
     top: 260px;
     left: 450px;
-    animation: Bounce3 1s ease-in infinite;
+    animation: Bounce3 1.5s ease-in infinite;
 }
 .b4{
     position: absolute;
@@ -74,7 +74,7 @@ body{
     border: 2px solid black;
     top: 200px;
     left: 750px;
-    animation: Bounce5 1s ease-in infinite;
+    animation: Bounce5 0.7s ease-in infinite;
 }
 
 @keyframes Bounce1{
