@@ -7,8 +7,8 @@
     display: flex;
     background-image: url(./Images/stars.jpg);
     position: relative;
-    height: 1000px;
-    width:1800px;
+    height: 4000px;
+    width:100%;
     justify-content: center;
     align-items: center;
 }
@@ -19,20 +19,18 @@
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    display: block;
-    justify-content: center;
-    align-items: center;
 }
 .mercury{
+    position: absolute;
     height: 230px;
     width: 230px;
     border-radius: 50%;
     border: 2px solid white;
-    position: absolute;
-    top: 385px;
-    left: 784px;
-
-    animation: mercury 10s linear infinite;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: Orbit 10s linear infinite;
 }
 .mercury::before{
     position: absolute;
@@ -40,20 +38,172 @@
     background-image: url(./Images/mercury.jpg);
     background-size: 150% 150%;
     background-position: center;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    top: 10px;
-    left: 10px;
-    animation: Mer_Self 5s linear infinite;
+    top: 12px;
+    left: 12px;
+    animation: Self 5s linear infinite;
 }
-
-@keyframes mercury{
+.venus{
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: Orbit 6s linear infinite;
+}
+.venus::before{
+    position: absolute;
+    content: '';
+    background-image: url(./Images/venus.jpeg);
+    background-size: 150% 150%;
+    background-position: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    top: 25px;
+    left: 25px;
+    animation: Self 5s linear infinite;
+}
+.earth{
+    position: absolute;
+    height: 520px;
+    width: 520px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: Orbit 10s linear infinite;
+}
+.earth::before{
+    position: absolute;
+    content: '';
+    background-image: url(./Images/earth.jpg);
+    background-size: 150% 150%;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 45px;
+    left: 45px;
+    animation: Self 10s linear infinite;
+}
+.moon{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 25px;
+    left: 25px;
+    animation: Orbit 5s linear infinite;
+}
+.moon::before{
+    position: absolute;
+    content: '';
+    background-image: url(./Images/Moon.jpg);
+    background-size: 150% 150%;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top: 70px;
+    left: 70px;
+    animation: Self 7s linear infinite;
+}
+.mars{
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: Orbit 14s linear infinite;
+}
+.mars::before{
+    position: absolute;
+    content: '';
+    background-image: url(./Images/mars.jpg);
+    background-size: 150% 150%;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 80px;
+    left: 80px;
+    animation: Self 8s linear infinite;
+}
+.jupiter{
+    position: absolute;
+    height: 950px;
+    width: 950px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: Orbit 20s linear infinite;
+}
+.jupiter::before{
+    position: absolute;
+    content: '';
+    background-image: url(./Images/jupiter.jpg);
+    background-size: 150% 150%;
+    background-position: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    top: 85px;
+    left: 85px;
+    animation: Self 15s linear infinite;
+}
+.saturn{
+    position: absolute;
+    height: 1250px;
+    width: 1250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: Orbit 15s linear infinite;
+}
+.saturn::before{
+    position: absolute;
+    content: '';
+    background-image: url(./Images/saturn.jpg);
+    background-size: 90% 90%;
+    background-position: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    top: 125px;
+    left: 125px;
+    /* animation: Self 15s linear infinite; */
+    transform: rotate(50deg);
+}
+@keyframes Orbit{
     to{
         transform: rotate(360deg);
     }
 }
-@keyframes Mer_Self{
+@keyframes Self{
     to{
         transform: rotate(360deg);
     }
