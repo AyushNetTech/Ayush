@@ -12,24 +12,27 @@
 .head{
     position: absolute;
     top: 0px;
-    height: 600px;
+    height: 900px;
     width: 100%;
-    background-image: linear-gradient(to right,rgb(17, 17, 17), rgb(65, 65, 65));
+    /* background-image: linear-gradient(to right,rgb(17, 17, 17), rgb(65, 65, 65)); */
+    background-image: url(./Images/combo.webp);
+    background-size: 100% 120%;
+    
 
 }
 .nav{
-    position: sticky;
+    position: fixed;
     height: 80px;
     width: 100%;
     top: 0px;
-    background-image: linear-gradient(to right,rgb(17, 17, 17), rgb(65, 65, 65));
+    /* background-image: linear-gradient(to right,rgb(17, 17, 17), rgb(65, 65, 65)); */
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items:center;
     z-index: 3;
 }
 .nav ul li{
-    position: sticky;
     list-style: none;
     float: left;
     color: white;
