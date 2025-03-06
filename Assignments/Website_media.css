@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fontdiner+Swanky&family=Jura:wght@300..700&family=Kranky&family=Merienda:wght@300..900&family=Sigmar+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,8 +19,6 @@
     /* background-image: linear-gradient(to right,rgb(17, 17, 17), rgb(65, 65, 65)); */
     background-image: url(./Images/combo.webp);
     background-size: 100% 120%;
-    
-
 }
 .nav{
     position: fixed;
@@ -32,6 +32,14 @@
     align-items:center;
     z-index: 3;
 }
+.nav .NavName {
+    position: absolute;
+    color: white;
+    border-radius: 20px;
+    left: 100px;
+    font-family: "Fontdiner Swanky", serif;
+    font-size: 40px;
+}
 .nav ul li{
     list-style: none;
     float: left;
@@ -44,62 +52,69 @@
 .nav ul li:hover{
     color: rgb(255, 211, 17);
 }
-.left{
+.nav .contact{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 50%;
-    background-color: rgba(137, 43, 226, 0);
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(255, 211, 17);
+    width: 150px;
+    height: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    right: 100px;
 }
-.left h1{
+.PopUp{
     position: absolute;
-    top: 200px;
-    left: 100px;
-    font-size: 6rex;
-    font-family: 'Courier New', Courier, monospace;
+    top: 80px;
+    left: 0px;
+    height: 820PX;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.619);
+}
+.PopUp h1{
+    position: absolute;
+    top:200px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 8rex;
+    font-family: "Sigmar One", sans-serif;
     color: rgb(255, 211, 17);
     text-align: center;
+    text-shadow: 5px 5px red;
+    animation: popup 1s ease-out;
 }
-.left p{
+.PopUp p{
     position: absolute;
-    top: 270px;
-    left: 100px;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 3.5rex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Merienda", cursive;
     width: 600px;
     color: white;
-}
-.right{
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    height: 100%;
-    width: 50%;
-    background-color: rgba(240, 248, 255, 0);
-}
-.right .i{
-    position: absolute;
-    top: 0px;
-    left: -200px;
-    height: 100%;
-    width: 100%;
-    /* background-color: rebeccapurple; */
-    background-image: url(./Images/bur.png);
-    background-size: 100% 100%;
-}
-.right .i1{
-    position: absolute;
-    top: 200px;
-    left: 300px;
-    height: 100%;
-    width: 100%;
-    /* background-color: rebeccapurple; */
-    background-image: url(./Images/bur1.png);
-    background-size: 70% 70%;
-    background-repeat: no-repeat;
+    animation: popup1 1s ease-out;
 }
 
+@keyframes popup{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+@keyframes popup1{
+    0%{
+        left: 2000px;
+    }
+    100%{
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
 @media (min-width:0px) and (max-width:600px){
     .right{
         position: absolute;
