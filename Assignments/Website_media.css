@@ -54,7 +54,7 @@
 }
 .nav .contact{
     position: absolute;
-    font-size: 25px;
+    font-size: 23px;
     color: white;
     border-radius: 20px;
     background-color: rgb(255, 211, 17);
@@ -115,6 +115,9 @@
         transform: translate(-50%);
     }
 }
+
+
+
 @media (min-width:0px) and (max-width:600px){
     .right{
         position: absolute;
@@ -123,5 +126,28 @@
         height: 100%;
         width: 50%;
         background-color: rgba(240, 248, 255, 0);
+    }
+}
+
+@media (min-width:1200px) and (max-width:1380px){
+    .nav{
+        height: 60px;
+    }
+    .nav .NavName{
+        font-size: 25px;
+    }
+    .nav ul li{
+        font-size: 20px;
+    }
+    .nav .contact{
+        font-size: 20px;
+        width: 130px;
+        height: 28px;
+    }
+    .PopUp{
+        top: 60px;
+    }
+    .head{
+        height: 880px;
     }
 }
